@@ -1,5 +1,5 @@
 const assert = require('assert');
-const tasks = require('../src/numbers-tasks');
+const tasks = require('../src/numbers-tasks.js');
 it.optional = require('../extensions/it-optional');
 const forbidden = require('../extensions/forbidden');
 
