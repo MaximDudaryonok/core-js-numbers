@@ -265,7 +265,7 @@ function getFibonacciNumber(index) {
   let a = 0;
   let b = 1;
   let next;
-  for (let i = 2; i <= index; i++) {
+  for (let i = 2; i <= index; i += 1) {
     next = a + b;
     a = b;
     b = next;
